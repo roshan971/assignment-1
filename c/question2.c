@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// function to get matrix elements entered by the user
+
 void getMatrixElements(int matrix[][10], int row, int column) {
 
    printf("\nEnter elements: \n");
@@ -13,7 +13,7 @@ void getMatrixElements(int matrix[][10], int row, int column) {
    }
 }
 
-// function to multiply two matrices
+
 void multiplyMatrices(int first[][10],
                       int second[][10],
                       int result[][10],
@@ -116,7 +116,7 @@ void identity()
 
 int main() {
    int first[10][10], second[10][10], result[10][10],third[10][10], r1, c1, r2, c2,sum[10][10],n;
-   printf("multiplication,addition only possible if n*n value of 2 matrix is same\n");
+   
    printf("Enter rows and column for the first matrix: ");
    scanf("%d %d", &r1, &c1);
    printf("Enter rows and column for the second matrix: ");

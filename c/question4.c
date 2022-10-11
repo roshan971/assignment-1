@@ -2,16 +2,24 @@
 
 int main()
 {
-    int i, num1, num2, min, hcf=1;
-
+    int  n1, n2,k=1;
+    void value(int ,int );
     
     printf("Enter  two numbers: ");//enter 36 and 24 here
-    scanf("%d%d", &num1, &num2);
-
+    scanf("%d%d", &n1, &n2);
+    value(n1,n2);
     
-    min = (num1<num2) ? num1 : num2;
+}
 
-    for(i=1; i<=min; i++)
+
+
+
+
+void value(int num1,int num2)
+{   
+    int min,hcf=1;
+    min = (num1<num2) ? num1 : num2;
+    for(int i=1; i<=min; i++)
     {
         
         if(num1%i==0 && num2%i==0)
